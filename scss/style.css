@@ -10,4 +10,9 @@
   height: 100vh;
   background-color: aqua;
 }
+
+.container-1 .section-1 {
+  background-color: red;
+  height: 40vh;
+}
 /*# sourceMappingURL=style.css.map */
