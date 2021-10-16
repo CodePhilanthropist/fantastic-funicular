@@ -16,3 +16,8 @@
   flex-direction: column;
   gap: 2rem;
 }
+
+
+@mixin logo{
+    font-size: 60px;
+}
