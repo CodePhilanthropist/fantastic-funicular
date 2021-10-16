@@ -386,4 +386,68 @@ body {
 .container-1 .section-3 .container .content4 .flexer section:nth-child(3) article:nth-child(2) i {
   color: #e187b1;
 }
+
+.container-1 .section-3 .container .content5 .flexer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 3rem;
+}
+
+.container-1 .section-3 .container .content5 .flexer section {
+  padding: 2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 400px;
+  width: 50%;
+}
+
+.container-1 .section-3 .container .content5 .flexer section form {
+  position: relative;
+  top: 1rem;
+}
+
+.container-1 .section-3 .container .content5 .flexer section form button {
+  position: relative;
+  top: 10px;
+  height: 50px;
+  width: 160px;
+  border-radius: 360px;
+  background-color: #17b61d;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.container-1 .section-3 .container .content5 .flexer section form button:hover {
+  background-color: green;
+}
+
+.container-1 .section-3 .container .content5 .flexer section form input {
+  display: block !important;
+  padding: 0.7rem;
+  width: 90%;
+  border: 1px solid #ececf0;
+}
+
+.container-1 .section-3 .container .content5 .flexer section form input:focus {
+  outline: none;
+  border-color: #17b61d;
+}
+
+.container-1 .section-3 .container .content5 .flexer section:nth-child(2) .verify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+.container-1 .section-3 .container .content5 .flexer section:nth-child(2) .verify input[type="checkbox"] {
+  width: 15px;
+  padding: 2rem;
+}
 /*# sourceMappingURL=style.css.map */

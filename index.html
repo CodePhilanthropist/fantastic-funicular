@@ -66,7 +66,7 @@
           <label for="tab4">Skills</label>
 
           <input type="radio" name="tabs" id="tab5" />
-          <label for="tab5">Fun Facts</label>
+          <label for="tab5">Login</label>
 
           <div class="tab content1">
             <div class="flexer">
@@ -107,34 +107,46 @@
               <section>
                 <form action="">
                   <div class="fields">
-                    <section><label for="fname">Award Title:</label>
-                        <input
-                          class="input-block"
-                          type="text"
-                          id="award-title"
-                          name="fname"
-                        /></section>
-                    <section><label for="lname">Descrption:</label>
-                        <input
-                          class="input-block"
-                          type="text"
-                          id="award-desc"
-                          name="lname"
-                        /></section>
+                    <section>
+                      <label for="fname">Award Title:</label>
+                      <input
+                        class="input-block"
+                        type="text"
+                        id="award-title"
+                        name="fname"
+                      />
+                    </section>
+                    <section>
+                      <label for="lname">Descrption:</label>
+                      <input
+                        class="input-block"
+                        type="text"
+                        id="award-desc"
+                        name="lname"
+                      />
+                    </section>
                   </div>
+                <div class="option">
+                    <label for="status">status:</label>
 
+                    <select name="status" id="stat">
+                      <option value="publish">publish</option>
+                      <option value="private">private</option>
+                      <option value="delete">delete</option>
+                    </select> 
+                </div>
                   <div class="levels">
                     <article>
-                        School
-                        <input class="input-block" type="radio" name="school">
+                      School
+                      <input class="input-block" type="radio" name="school" />
                     </article>
                     <article>
-                        Regional
-                        <input class="input-block" type="radio" name="school">
+                      Regional
+                      <input class="input-block" type="radio" name="school" />
                     </article>
                     <article>
-                        National
-                        <input class="input-block" type="radio" name="school">
+                      National
+                      <input class="input-block" type="radio" name="school" />
                     </article>
                   </div>
 
@@ -185,58 +197,126 @@
             </div>
           </div>
           <div class="tab content4">
-              <div class="flexer">
-                <section>
-                    <article>
-                        <i class='bx bxl-python' ></i> <i class='bx bxl-django'></i>
-                        <h5>Python & Django</h5>
-                        <p>
-                          I code website with Python and Django Full Stack Web Framework.
-                        </p>
-                      </article>
-                      <article>
-                        <i class='bx bxl-flutter'></i>
-                        <h5>Dart & Flutter</h5>
-                        <p>
-                          I use Flutter for cross-platform mobile development.
-                        </p>
-                      </article>
-                </section>
-                <section>
-                    <article>
-                        <i class='bx bxl-javascript' ></i>
-                        <h5>Javascript (ECMA 6)</h5>
-                        <p>
-                          I prefer Javascript's versatility for quick website development with the use of some toolings such as gulp and panini.
-                        </p>
-                      </article>
-                      <article>
-                        <i class='bx bxl-react' ></i>
-                        <h5>React JS</h5>
-                        <p>
-                          React has been the defacto standard for frontend web applications development, I practice React.
-                        </p>
-                      </article>
-                </section>
-                <section>
-                    <article>
-                        <i class='bx bxl-html5' ></i> <i class='bx bxl-css3' ></i>
-                        <h5>HTML5 & CSS3</h5>
-                        <p>
-                          This is the fundamental languages for web development and I use them. I use them in every web development work.
-                        </p>
-                      </article>
-                      <article>
-                        <i class='bx bxl-sass' ></i>
-                        <h5>Sass</h5>
-                        <p>
-                            Sass is the most mature, stable, and powerful professional grade CSS extension language in the world. 
-                        </p>
-                      </article>
-                </section>
-              </div>
+            <div class="flexer">
+              <section>
+                <article>
+                  <i class="bx bxl-python"></i> <i class="bx bxl-django"></i>
+                  <h5>Python & Django</h5>
+                  <p>
+                    I code website with Python and Django Full Stack Web
+                    Framework.
+                  </p>
+                </article>
+                <article>
+                  <i class="bx bxl-flutter"></i>
+                  <h5>Dart & Flutter</h5>
+                  <p>I use Flutter for cross-platform mobile development.</p>
+                </article>
+              </section>
+              <section>
+                <article>
+                  <i class="bx bxl-javascript"></i>
+                  <h5>Javascript (ECMA 6)</h5>
+                  <p>
+                    I prefer Javascript's versatility for quick website
+                    development with the use of some toolings such as gulp and
+                    panini.
+                  </p>
+                </article>
+                <article>
+                  <i class="bx bxl-react"></i>
+                  <h5>React JS</h5>
+                  <p>
+                    React has been the defacto standard for frontend web
+                    applications development, I practice React.
+                  </p>
+                </article>
+              </section>
+              <section>
+                <article>
+                  <i class="bx bxl-html5"></i> <i class="bx bxl-css3"></i>
+                  <h5>HTML5 & CSS3</h5>
+                  <p>
+                    This is the fundamental languages for web development and I
+                    use them. I use them in every web development work.
+                  </p>
+                </article>
+                <article>
+                  <i class="bx bxl-sass"></i>
+                  <h5>Sass</h5>
+                  <p>
+                    Sass is the most mature, stable, and powerful professional
+                    grade CSS extension language in the world.
+                  </p>
+                </article>
+              </section>
+            </div>
           </div>
-          <div class="tab content5">Tab5 Contents</div>
+          <div class="tab content5">
+            <div class="flexer">
+              <section>
+                <h4>Login</h4>
+                <form action="">
+                    <label for="username">Username</label>
+                    <input
+                      class="input-block"
+                      type="text"
+                      name="username"
+                      placeholder="Enter username"
+                    />
+                    <br>
+                    <label for="password">Password</label>
+                    <input
+                      class="input-block"
+                      type="text"
+                      name="password"
+                      placeholder="Enter password"
+                    />
+                    <button>Submit</button>
+                    
+                </form>
+              </section>
+              <section>
+                <h4>Signup</h4>
+                <form action="">
+                    <label for="username">Username</label>
+                    <input
+                      class="input-block"
+                      type="text"
+                      name="username"
+                      placeholder="Enter username"
+                    />
+                    <br>
+                    <label for="password">Password</label>
+                    <input
+                      class="input-block"
+                      type="text"
+                      name="password"
+                      placeholder="Enter password"
+                    />
+                    <br>
+                    <label for="confirmation">Confirm Password</label>
+                    <input
+                      class="input-block"
+                      type="text"
+                      name="confirmation"
+                      placeholder="Enter password"
+                    />
+                    <div class="verify">
+                        
+                    <input
+                      class="input-block"
+                      type="checkbox"
+                      name="checkbox"
+                    />
+                    Remember me
+                    </div>
+                    <button>Submit</button>
+                    
+                </form>
+              </section>
+            </div>
+          </div>
         </div>
       </section>
     </div>
