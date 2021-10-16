@@ -12,12 +12,12 @@
 
 .container-1 .section-1 {
   background-color: #bbe4bb;
-  height: 50vh;
+  height: 40vh;
 }
 
 .container-1 .section-2 {
   background-color: gainsboro;
-  height: 50vh;
+  height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,6 +25,6 @@
 
 .container-1 .section-2 article:nth-child(1) img {
   border-radius: 50%;
-  width: 200px;
+  width: 250px;
 }
 /*# sourceMappingURL=style.css.map */

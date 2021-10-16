@@ -12,16 +12,16 @@
     // background-color: aqua;
     .section-1{
         background-color: $base-color;
-        height: 50vh;
+        height: 40vh;
     }
     .section-2{
         background-color: gainsboro;
-        height: 50vh;
+        height: 60vh;
         display: flex;
         article:nth-child(1){
             img{
                 border-radius: 50%;
-                width: 200px;
+                width: 250px;
             }
         }
     }
