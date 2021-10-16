@@ -122,7 +122,15 @@ body {
       }
 
       .content3{
-
+        .flexer{
+            @include flexer;
+            article{
+                i{
+                    font-size: 60px;
+                }
+            }
+        }
+        
       }
     }
   }
