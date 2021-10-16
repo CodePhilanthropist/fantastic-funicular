@@ -1,3 +1,5 @@
+@import "variables";
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +11,7 @@
     height: 100vh;
     background-color: aqua;
     .section-1{
-        background-color: red;
+        background-color: $base-color;
         height: 40vh;
     }
 
