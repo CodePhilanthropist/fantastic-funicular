@@ -180,4 +180,8 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+
+.container-1 .section-3 .container .content1 textarea {
+  width: 80%;
+}
 /*# sourceMappingURL=style.css.map */

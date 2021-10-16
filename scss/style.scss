@@ -94,6 +94,11 @@ body {
     .container{
         width: 80%;
         margin: 0 auto;
+        .content1{
+            textarea{
+                width: 80%;
+            }
+        }
     }
     
   }
