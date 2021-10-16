@@ -92,6 +92,8 @@ body {
 }
 
 .container-1 .section-2 article:nth-child(2) section span {
+  position: relative;
+  top: 1rem;
   background-color: #f6f5f8;
   padding: .4rem;
   border-radius: .5rem;
