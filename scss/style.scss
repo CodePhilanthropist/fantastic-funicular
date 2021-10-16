@@ -109,35 +109,36 @@ body {
               border-color: $green-highlighter;
             }
           }
-          .buttons{
-            button:nth-child(1){
-                @include button($save-button, green);
+          .buttons {
+            button:nth-child(1) {
+              @include button($save-button, green);
             }
-            button:nth-child(2){
-                @include button($reset-button, 
-                maroon);
+            button:nth-child(2) {
+              @include button($reset-button, maroon);
             }
           }
         }
       }
 
-      .content3{
-        .flexer{
-            @include flexer;
-            section{
-                form{
-                    .input-block{
-                        display: block;
-                    }
-                }
+      .content3 {
+        .flexer {
+          @include flexer;
+          section {
+            form {
+              .input-block {
+                display: block;
+              }
+              .levels {
+               
+              }
             }
-            article{
-                i{
-                    font-size: 60px;
-                }
+          }
+          article {
+            i {
+              font-size: 60px;
             }
+          }
         }
-        
       }
     }
   }
