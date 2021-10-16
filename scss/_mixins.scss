@@ -1,8 +1,12 @@
-@mixin button($button-color) {
-    width: 5rem;
-    padding: .5rem;
-    border-radius: 8%;
+@mixin button($button-color, $bg-color) {
+    height:50px;
+    width:160px;
+    border-radius:360px;
     background-color: $button-color;
     border: none;
     color: white;
+    cursor: pointer;
+    &:hover{
+        background-color:$bg-color;
+    }
 }
