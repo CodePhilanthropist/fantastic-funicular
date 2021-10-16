@@ -12,6 +12,10 @@
 
 .container-1 .section-1 {
   background-color: #bbe4bb;
-  height: 40vh;
+  height: 50vh;
+}
+
+.container-1 .section-2 {
+  height: 50vh;
 }
 /*# sourceMappingURL=style.css.map */
