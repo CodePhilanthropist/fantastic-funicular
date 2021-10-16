@@ -41,11 +41,11 @@ h5 {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 i {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .container-1 {
@@ -77,5 +77,6 @@ i {
 .container-1 .section-2 article:nth-child(1) img {
   border-radius: 50%;
   width: 250px;
+  padding: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
