@@ -102,6 +102,7 @@ body {
 .container-1 .section-2 article:nth-child(3) a {
   position: relative;
   top: 2rem;
+  border: 1px solid #f6f5f8;
   color: black;
 }
 
