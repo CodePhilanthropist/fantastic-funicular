@@ -38,8 +38,13 @@ i {
       }
     }
     article:nth-child(2) {
+        
     }
     article:nth-child(3) {
+        a{
+            position: relative;
+            top: 2rem !important;
+        }
     }
   }
 }

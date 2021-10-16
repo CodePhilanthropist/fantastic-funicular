@@ -79,4 +79,9 @@ i {
   width: 250px;
   padding: 1rem;
 }
+
+.container-1 .section-2 article:nth-child(3) a {
+  position: relative;
+  top: 2rem !important;
+}
 /*# sourceMappingURL=style.css.map */
