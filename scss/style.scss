@@ -27,10 +27,11 @@ i{
         height: 60vh;
         display: flex;
         place-content: center;
-        place-items: center;
+        place-items: top;
         gap: 3rem;
         article:nth-child(1){
-            place-self: top;
+            position: relative;
+            bottom: 150px;
             img{
                 border-radius: 50%;
                 width: 250px;

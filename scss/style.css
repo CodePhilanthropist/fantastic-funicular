@@ -65,12 +65,13 @@ i {
   display: -ms-flexbox;
   display: flex;
   place-content: center;
-  place-items: center;
+  place-items: top;
   gap: 3rem;
 }
 
 .container-1 .section-2 article:nth-child(1) {
-  place-self: top;
+  position: relative;
+  bottom: 150px;
 }
 
 .container-1 .section-2 article:nth-child(1) img {
