@@ -106,31 +106,42 @@
               <br />
               <section>
                 <form action="">
-                  <label for="fname">Award Title:</label>
-                  <input
-                    class="input-block"
-                    type="text"
-                    id="fname"
-                    name="fname"
-                  /><br />
-                  <label for="lname">Descrption:</label>
-                  <input
-                    class="input-block"
-                    type="text"
-                    id="lname"
-                    name="lname"
-                  /><br />
-
-                  <div class="levels">
-                    <label class="container"
-                        >school
-                        <input type="radio" checked="checked" name="radio" />
-                        <span class="checkmark"></span>
-                      </label>
+                  <div class="fields">
+                    <section><label for="fname">Award Title:</label>
+                        <input
+                          class="input-block"
+                          type="text"
+                          id="award-title"
+                          name="fname"
+                        /></section>
+                    <section><label for="lname">Descrption:</label>
+                        <input
+                          class="input-block"
+                          type="text"
+                          id="award-desc"
+                          name="lname"
+                        /></section>
                   </div>
 
-                  <input class="input-block" type="submit" value="Submit" />
-                  <input class="input-block" type="reset" value="Reset" />
+                  <div class="levels">
+                    <article>
+                        School
+                        <input class="input-block" type="radio" name="school">
+                    </article>
+                    <article>
+                        Regional
+                        <input class="input-block" type="radio" name="school">
+                    </article>
+                    <article>
+                        National
+                        <input class="input-block" type="radio" name="school">
+                    </article>
+                  </div>
+
+                  <div class="buttons">
+                    <input class="input-block" type="submit" value="Submit" />
+                    <input class="input-block" type="reset" value="Reset" />
+                  </div>
                 </form>
               </section>
               <article>

@@ -1,4 +1,4 @@
-@import "variables", "utilities", "tabs", "mixins", "radio";
+@import "variables", "utilities", "tabs", "mixins";
 
 * {
   margin: 0;
@@ -125,12 +125,56 @@ body {
           @include flexer;
           section {
             form {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                .fields{
+                    display: flex;
+                    place-content: start;
+                    gap: 2rem;
+                    section:nth-child(1){
+                        #award-title{
+                            padding: .5rem;
+                            border: 1px solid grey;
+                            border-radius: .2rem;
+                            outline: none !important;
+                            &:focus{
+                                border-color: $green-highlighter;
+                            }
+                        }
+                    }
+
+                    section:nth-child(2){
+                        #award-desc{
+                            padding: .5rem;
+                            border: 1px solid grey;
+                            border-radius: .2rem;
+                            outline: none !important;
+                            &:focus{
+                                border-color: $green-highlighter;
+                            }
+                        }
+                    }
+                
+                }
+                .levels {
+                    display: flex;
+                    gap: 2rem;
+                }
+                .buttons{
+                    display: flex;
+                    gap: 1rem;
+                   input:nth-child(1){
+                       @include button(green, $save-button);
+                   }
+                   input:nth-child(2){
+                    @include button($reset-button, maroon);
+                }
+                }
               .input-block {
                 display: block;
               }
-              .levels {
-               
-              }
+              
             }
           }
           article {
@@ -143,3 +187,4 @@ body {
     }
   }
 }
+
