@@ -66,6 +66,7 @@ i {
   display: flex;
   place-content: center;
   place-items: center;
+  gap: 1rem;
 }
 
 .container-1 .section-2 article:nth-child(1) img {
