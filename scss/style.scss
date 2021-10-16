@@ -124,6 +124,13 @@ body {
       .content3{
         .flexer{
             @include flexer;
+            section{
+                form{
+                    .input-block{
+                        display: block;
+                    }
+                }
+            }
             article{
                 i{
                     font-size: 60px;

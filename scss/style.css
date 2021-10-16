@@ -252,6 +252,10 @@ body {
   gap: 2rem;
 }
 
+.container-1 .section-3 .container .content3 .flexer section form .input-block {
+  display: block;
+}
+
 .container-1 .section-3 .container .content3 .flexer article i {
   font-size: 60px;
 }
