@@ -45,7 +45,7 @@ body {
 }
 
 i {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .container-1 {
