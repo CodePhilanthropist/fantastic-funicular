@@ -1,0 +1,19 @@
+{
+  "name": "fantastic-funicular",
+  "version": "1.0.0",
+  "description": "A project for professor Leodivino Lawas' P ELEC 2 - CS84 @ CTU main campus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodePhilanthropist/fantastic-funicular.git"
+  },
+  "author": "Rian Rey Barriga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodePhilanthropist/fantastic-funicular/issues"
+  },
+  "homepage": "https://github.com/CodePhilanthropist/fantastic-funicular#readme"
+}
