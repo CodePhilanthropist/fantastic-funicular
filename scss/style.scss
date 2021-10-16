@@ -112,10 +112,10 @@ body {
                 }
               }
               .buttons{
-                input:nth-child(1){
+                input:submit{
                     @include button($save-button, green);
                 }
-                input:nth-child(2){
+                input:reset{
                     @include button($reset-button, 
                     maroon);
                 }

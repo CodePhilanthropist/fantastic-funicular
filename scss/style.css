@@ -212,7 +212,7 @@ body {
   border-color: #17b61d;
 }
 
-.container-1 .section-3 .container .content1 .flexer form .buttons input:nth-child(1) {
+.container-1 .section-3 .container .content1 .flexer form .buttons input:submit {
   height: 50px;
   width: 160px;
   border-radius: 360px;
@@ -222,11 +222,11 @@ body {
   cursor: pointer;
 }
 
-.container-1 .section-3 .container .content1 .flexer form .buttons input:nth-child(1):hover {
+.container-1 .section-3 .container .content1 .flexer form .buttons input:submit:hover {
   background-color: green;
 }
 
-.container-1 .section-3 .container .content1 .flexer form .buttons input:nth-child(2) {
+.container-1 .section-3 .container .content1 .flexer form .buttons input:reset {
   height: 50px;
   width: 160px;
   border-radius: 360px;
@@ -236,7 +236,7 @@ body {
   cursor: pointer;
 }
 
-.container-1 .section-3 .container .content1 .flexer form .buttons input:nth-child(2):hover {
+.container-1 .section-3 .container .content1 .flexer form .buttons input:reset:hover {
   background-color: maroon;
 }
 /*# sourceMappingURL=style.css.map */
