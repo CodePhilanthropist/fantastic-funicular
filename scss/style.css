@@ -133,8 +133,8 @@ body {
   position: relative;
   top: 1rem;
   background-color: #f6f5f8;
-  padding: .4rem;
-  border-radius: .5rem;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
 }
 
 .container-1 .section-2 article:nth-child(2) section ul {
@@ -161,7 +161,7 @@ body {
 .container-1 .section-2 article:nth-child(3) a {
   position: relative;
   top: 2rem;
-  padding: .5rem;
+  padding: 0.5rem;
   border: 1px solid #ececf0;
   border-radius: 8px;
   color: black;
@@ -185,13 +185,13 @@ body {
   margin: 0 auto;
 }
 
-.container-1 .section-3 .container .content1 {
+.container-1 .section-3 .container .content1 .flexer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.container-1 .section-3 .container .content1 textarea {
+.container-1 .section-3 .container .content1 .flexer textarea {
   position: relative;
   top: 1rem;
   width: 100%;
@@ -204,7 +204,7 @@ body {
   border: 2px solid #ececf0;
 }
 
-.container-1 .section-3 .container .content1 textarea:focus {
+.container-1 .section-3 .container .content1 .flexer textarea:focus {
   outline: none;
   border-color: #17b61d;
 }
