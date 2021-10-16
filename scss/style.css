@@ -114,5 +114,6 @@ body {
 
 .container-1 .section-2 article:nth-child(3) a:hover {
   color: #17b61d;
+  border-color: #17b61d;
 }
 /*# sourceMappingURL=style.css.map */
