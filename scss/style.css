@@ -18,9 +18,13 @@
 .container-1 .section-2 {
   background-color: gainsboro;
   height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .container-1 .section-2 article:nth-child(1) img {
+  border-radius: 50%;
   width: 300px;
 }
 /*# sourceMappingURL=style.css.map */
