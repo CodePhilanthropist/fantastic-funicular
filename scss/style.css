@@ -102,5 +102,14 @@ body {
 .container-1 .section-2 article:nth-child(3) a {
   position: relative;
   top: 2rem;
+  color: black;
+}
+
+.container-1 .section-2 article:nth-child(3) a i {
+  color: #17b61d;
+}
+
+.container-1 .section-2 article:nth-child(3) a:hover {
+  color: #17b61d;
 }
 /*# sourceMappingURL=style.css.map */

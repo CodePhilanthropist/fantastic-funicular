@@ -56,6 +56,13 @@ body {
         a{
             position: relative;
             top: 2rem;
+            i{
+                color: $green-highlighter;
+            }
+            color: black;
+            &:hover{
+                color: $green-highlighter;
+            }
         }
     }
   }
