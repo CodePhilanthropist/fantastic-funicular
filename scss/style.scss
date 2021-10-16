@@ -97,29 +97,27 @@ body {
           display: flex;
           flex-direction: column;
           gap: 2rem;
-          form{
-            textarea {
-                width: 100%;
-                padding: 1rem;
-                font-size: 14px;
-                font: $font !important;
-                box-sizing: border-box;
-                border-radius: 8px;
-                border: 2px solid $border-color;
-                &:focus {
-                  outline: none;
-                  border-color: $green-highlighter;
-                }
-              }
-              .buttons{
-                input:submit{
-                    @include button($save-button, green);
-                }
-                input:reset{
-                    @include button($reset-button, 
-                    maroon);
-                }
-              }
+          textarea {
+            width: 100%;
+            padding: 1rem;
+            font-size: 14px;
+            font: $font !important;
+            box-sizing: border-box;
+            border-radius: 8px;
+            border: 2px solid $border-color;
+            &:focus {
+              outline: none;
+              border-color: $green-highlighter;
+            }
+          }
+          .buttons{
+            button:nth-child(1){
+                @include button($save-button, green);
+            }
+            button:nth-child(2){
+                @include button($reset-button, 
+                maroon);
+            }
           }
         }
       }

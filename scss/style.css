@@ -196,7 +196,7 @@ body {
   gap: 2rem;
 }
 
-.container-1 .section-3 .container .content1 .flexer form textarea {
+.container-1 .section-3 .container .content1 .flexer textarea {
   width: 100%;
   padding: 1rem;
   font-size: 14px;
@@ -207,12 +207,12 @@ body {
   border: 2px solid #ececf0;
 }
 
-.container-1 .section-3 .container .content1 .flexer form textarea:focus {
+.container-1 .section-3 .container .content1 .flexer textarea:focus {
   outline: none;
   border-color: #17b61d;
 }
 
-.container-1 .section-3 .container .content1 .flexer form .buttons input:submit {
+.container-1 .section-3 .container .content1 .flexer .buttons button:nth-child(1) {
   height: 50px;
   width: 160px;
   border-radius: 360px;
@@ -222,11 +222,11 @@ body {
   cursor: pointer;
 }
 
-.container-1 .section-3 .container .content1 .flexer form .buttons input:submit:hover {
+.container-1 .section-3 .container .content1 .flexer .buttons button:nth-child(1):hover {
   background-color: green;
 }
 
-.container-1 .section-3 .container .content1 .flexer form .buttons input:reset {
+.container-1 .section-3 .container .content1 .flexer .buttons button:nth-child(2) {
   height: 50px;
   width: 160px;
   border-radius: 360px;
@@ -236,7 +236,7 @@ body {
   cursor: pointer;
 }
 
-.container-1 .section-3 .container .content1 .flexer form .buttons input:reset:hover {
+.container-1 .section-3 .container .content1 .flexer .buttons button:nth-child(2):hover {
   background-color: maroon;
 }
 /*# sourceMappingURL=style.css.map */
