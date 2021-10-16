@@ -94,8 +94,7 @@ body {
       margin: 0 auto;
       .content1 {
         .flexer {
-          display: flex;
-          flex-direction: column;
+          @include flexer;
           gap: 2rem;
           textarea {
             width: 100%;
