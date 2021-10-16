@@ -93,7 +93,8 @@ body {
 
 .container-1 .section-2 article:nth-child(2) section span {
   background-color: #f6f5f8;
-  padding: .3rem;
+  padding: .4rem;
+  border-radius: .5rem;
 }
 
 .container-1 .section-2 article:nth-child(3) a {
