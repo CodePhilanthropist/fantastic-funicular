@@ -33,6 +33,12 @@ h5 {
   letter-spacing: -4%;
 }
 
+i {
+  font-size: 20px;
+  position: relative;
+  top: 2px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -42,10 +48,6 @@ h5 {
 
 body {
   font-family: "Poppins", sans-serif;
-}
-
-i {
-  font-family: "Poppins", sans-serif !important;
 }
 
 .container-1 {
