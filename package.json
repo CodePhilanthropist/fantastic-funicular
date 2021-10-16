@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/CodePhilanthropist/fantastic-funicular#readme",
   "dependencies": {
+    "boxicons": "^2.0.9",
     "gulp": "^4.0.2",
     "gulp-inline-css": "^4.0.0"
   }
