@@ -211,4 +211,22 @@ body {
   outline: none;
   border-color: #17b61d;
 }
+
+.container-1 .section-3 .container .content1 .flexer .buttons button:nth-child(1) {
+  width: 5rem;
+  padding: .5rem;
+  border-radius: 8%;
+  background-color: #17b61d;
+  border: none;
+  color: white;
+}
+
+.container-1 .section-3 .container .content1 .flexer .buttons button:nth-child(2) {
+  width: 5rem;
+  padding: .5rem;
+  border-radius: 8%;
+  background-color: #c02e2e;
+  border: none;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */

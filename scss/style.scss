@@ -110,6 +110,14 @@ body {
               border-color: $green-highlighter;
             }
           }
+          .buttons{
+            button:nth-child(1){
+                @include button($save-button);
+            }
+            button:nth-child(2){
+                @include button($reset-button);
+            }
+          }
         }
       }
     }
