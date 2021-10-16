@@ -186,7 +186,16 @@ body {
       }
 
       .content4{
-          
+          .flexer{
+              i{
+                  @include logo;
+              }
+              section{
+                  padding: 1rem;
+                    display: flex;
+                    gap: 2rem;
+              }
+          }
       }
     }
   }
