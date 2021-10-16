@@ -193,4 +193,8 @@ body {
   border-radius: 8px;
   border: 2px solid #ececf0;
 }
+
+.container-1 .section-3 .container .content1 textarea:active {
+  border-color: #17b61d;
+}
 /*# sourceMappingURL=style.css.map */
