@@ -30,6 +30,7 @@ i{
         place-items: center;
         gap: 3rem;
         article:nth-child(1){
+            place-self: top;
             img{
                 border-radius: 50%;
                 width: 250px;
