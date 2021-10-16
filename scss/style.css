@@ -272,9 +272,9 @@ body {
 }
 
 .container-1 .section-3 .container .content3 .flexer section form .fields section:nth-child(1) #award-title {
-  padding: .5rem;
+  padding: 0.5rem;
   border: 1px solid grey;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
   outline: none !important;
 }
 
@@ -283,9 +283,9 @@ body {
 }
 
 .container-1 .section-3 .container .content3 .flexer section form .fields section:nth-child(2) #award-desc {
-  padding: .5rem;
+  padding: 0.5rem;
   border: 1px solid grey;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
   outline: none !important;
 }
 
@@ -353,5 +353,37 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 2rem;
+}
+
+.container-1 .section-3 .container .content4 .flexer section article:nth-child(1) i:nth-child(1) {
+  color: #38689f;
+}
+
+.container-1 .section-3 .container .content4 .flexer section article:nth-child(1) i:nth-child(2) {
+  color: #003729;
+}
+
+.container-1 .section-3 .container .content4 .flexer section article:nth-child(2) i {
+  color: #66b1f1;
+}
+
+.container-1 .section-3 .container .content4 .flexer section:nth-child(2) article:nth-child(1) i {
+  color: #f7e018;
+}
+
+.container-1 .section-3 .container .content4 .flexer section:nth-child(2) article:nth-child(2) i {
+  color: #5ed3f3;
+}
+
+.container-1 .section-3 .container .content4 .flexer section:nth-child(3) article:nth-child(1) i:nth-child(1) {
+  color: #d84924;
+}
+
+.container-1 .section-3 .container .content4 .flexer section:nth-child(3) article:nth-child(1) i:nth-child(2) {
+  color: #016ab1;
+}
+
+.container-1 .section-3 .container .content4 .flexer section:nth-child(3) article:nth-child(2) i {
+  color: #e187b1;
 }
 /*# sourceMappingURL=style.css.map */
