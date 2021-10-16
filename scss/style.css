@@ -184,5 +184,9 @@ body {
 .container-1 .section-3 .container .content1 textarea {
   width: 100%;
   padding: 1rem;
+  font-size: 14px;
+  font: "Poppins", sans-serif !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*# sourceMappingURL=style.css.map */

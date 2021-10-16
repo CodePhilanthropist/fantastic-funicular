@@ -98,6 +98,9 @@ body {
             textarea{
                 width: 100%;
                 padding: 1rem;
+                font-size: 14px;
+                font: $font !important;
+                box-sizing: border-box;
             }
         }
     }
