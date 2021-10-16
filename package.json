@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/CodePhilanthropist/fantastic-funicular/issues"
   },
-  "homepage": "https://github.com/CodePhilanthropist/fantastic-funicular#readme"
+  "homepage": "https://github.com/CodePhilanthropist/fantastic-funicular#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-inline-css": "^4.0.0"
+  }
 }
