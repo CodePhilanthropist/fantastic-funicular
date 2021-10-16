@@ -99,6 +99,12 @@ body {
   border-radius: .5rem;
 }
 
+.container-1 .section-2 article:nth-child(2) section ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .container-1 .section-2 article:nth-child(3) a {
   position: relative;
   top: 2rem;

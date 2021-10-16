@@ -50,6 +50,10 @@ body {
                 padding: .4rem;
                 border-radius: .5rem;
             }
+            ul{
+                display: flex;
+                
+            }
         }
     }
     article:nth-child(3) {
@@ -67,6 +71,7 @@ body {
                 color: $green-highlighter;
                 border-color: $green-highlighter;
             }
+           
         }
     }
   }
