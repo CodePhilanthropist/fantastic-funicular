@@ -95,6 +95,8 @@ body {
       .content1 {
         .flexer {
           display: flex;
+          flex-direction: column;
+          gap: 2rem;
           textarea {
             position: relative;
             top: 1rem;
