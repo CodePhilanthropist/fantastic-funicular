@@ -43,6 +43,9 @@ body {
             h5{
                 color: $secondary-font;
             }
+            span{
+                background-color: $highlighter;
+            }
         }
     }
     article:nth-child(3) {
