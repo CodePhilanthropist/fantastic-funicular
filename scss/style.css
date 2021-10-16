@@ -108,6 +108,14 @@ body {
   gap: 5px;
 }
 
+.container-1 .section-2 article:nth-child(2) section ul li a {
+  color: inherit;
+}
+
+.container-1 .section-2 article:nth-child(2) section ul li a i {
+  font-size: 40px !important;
+}
+
 .container-1 .section-2 article:nth-child(3) a {
   position: relative;
   top: 2rem;
