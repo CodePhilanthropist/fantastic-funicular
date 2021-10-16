@@ -182,6 +182,7 @@ body {
 }
 
 .container-1 .section-3 .container .content1 textarea {
-  width: 80%;
+  width: 100%;
+  padding: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
