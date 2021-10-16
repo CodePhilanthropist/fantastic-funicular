@@ -91,7 +91,10 @@ body {
   }
   
   .section-3{
-    width: 100%;
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
     
   }
 }

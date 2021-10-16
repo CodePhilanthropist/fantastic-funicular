@@ -176,7 +176,8 @@ body {
   border-color: #17b61d;
 }
 
-.container-1 .section-3 {
-  width: 100%;
+.container-1 .section-3 .container {
+  width: 80%;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
