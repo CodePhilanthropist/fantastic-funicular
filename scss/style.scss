@@ -40,6 +40,9 @@ body {
         section{
             position: relative;
             top: 1.5rem;
+            h4{
+                color: $secondary-font;
+            }
         }
     }
     article:nth-child(3) {
