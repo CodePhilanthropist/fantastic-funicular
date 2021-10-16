@@ -179,10 +179,14 @@ body {
           }
           article {
             i {
-              font-size: 60px;
+              @include logo;
             }
           }
         }
+      }
+
+      .content4{
+          
       }
     }
   }
