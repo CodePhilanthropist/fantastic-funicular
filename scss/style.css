@@ -80,8 +80,13 @@ i {
   padding: 1rem;
 }
 
+.container-1 .section-2 article:nth-child(2) section {
+  position: relative;
+  top: 1.5rem;
+}
+
 .container-1 .section-2 article:nth-child(3) a {
   position: relative;
-  top: 2rem !important;
+  top: 2rem;
 }
 /*# sourceMappingURL=style.css.map */

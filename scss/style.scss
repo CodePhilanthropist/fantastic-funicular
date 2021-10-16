@@ -38,12 +38,15 @@ i {
       }
     }
     article:nth-child(2) {
-        
+        section{
+            position: relative;
+            top: 1.5rem;
+        }
     }
     article:nth-child(3) {
         a{
             position: relative;
-            top: 2rem !important;
+            top: 2rem;
         }
     }
   }
