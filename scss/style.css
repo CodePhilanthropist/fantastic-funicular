@@ -109,11 +109,15 @@ body {
 }
 
 .container-1 .section-2 article:nth-child(2) section ul li a {
-  color: inherit;
+  color: #bbe4bb;
 }
 
 .container-1 .section-2 article:nth-child(2) section ul li a i {
   font-size: 40px !important;
+}
+
+.container-1 .section-2 article:nth-child(2) section ul li a i:hover {
+  color: #17b61d;
 }
 
 .container-1 .section-2 article:nth-child(3) a {
