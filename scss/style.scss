@@ -16,6 +16,10 @@ body {
   // background-color: aqua;
   .section-1 {
     background-color: $base-color;
+    background-image: url(../images/sikatuna.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-origin: content-box;
     height: 40vh;
   }
   .section-2 {
