@@ -32,7 +32,7 @@
         .content3 {
           .flexer {
             section {
-              form{
+              form {
                 .fields {
                   display: flex;
                   gap: 2rem;
@@ -43,13 +43,13 @@
           }
         }
         .content4 {
-            .flexer {
-              section {
-                gap: 2rem;
-                flex-direction: column;
-              }
+          .flexer {
+            section {
+              gap: 2rem;
+              flex-direction: column;
             }
           }
+        }
       }
     }
   }
