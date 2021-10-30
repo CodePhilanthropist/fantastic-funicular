@@ -257,9 +257,14 @@ input ~ .tab {
     position: inherit;
     bottom: 0;
   }
+  .container-1 .section-3 .container .content3 .flexer section form .fields {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 * {
   margin: 0;
   padding: 0;

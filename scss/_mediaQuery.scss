@@ -211,11 +211,21 @@
             }
         }
         .section-3{
-            
+            .container{
+                .content3{
+                    .flexer{
+                        section{
+                            form{
+                                .fields{
+                                    flex-direction: row;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
+ 
