@@ -263,6 +263,12 @@ input ~ .tab {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .container-1 .section-3 .container .content4 .flexer section {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 * {
