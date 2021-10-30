@@ -42,6 +42,14 @@
             }
           }
         }
+        .content4 {
+            .flexer {
+              section {
+                gap: 2rem;
+                flex-direction: column;
+              }
+            }
+          }
       }
     }
   }

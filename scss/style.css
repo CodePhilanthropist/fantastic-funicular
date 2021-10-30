@@ -112,6 +112,13 @@ input ~ .tab {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .container-1 .section-3 .container .content4 .flexer section {
+    gap: 2rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
