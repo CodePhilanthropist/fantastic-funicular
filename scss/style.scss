@@ -26,9 +26,11 @@ body {
     // background-color: gainsboro;
     // height: 60vh;
     display: flex;
-    place-content: center;
-    place-items: top;
-    gap: 3rem;
+
+    flex-direction: column;
+    // place-content: center;
+    // place-items: top;
+    // gap: 3rem;
     article:nth-child(1) {
       position: relative;
       bottom: 150px;
