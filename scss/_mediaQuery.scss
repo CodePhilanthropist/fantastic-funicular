@@ -235,6 +235,10 @@
             flex-direction: column;
             gap: 3rem;
             section {
+                 padding: 2rem;
+            box-sizing: border-box;
+            height: 400px;
+            width: 50%;
             }
           }
         }
