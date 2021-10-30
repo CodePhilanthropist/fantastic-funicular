@@ -102,6 +102,11 @@ input ~ .tab {
     display: flex;
     gap: 5px;
   }
+  .container-1 .section-3 .container .content2 .flexer .section forms .fields {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
