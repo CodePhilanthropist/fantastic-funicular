@@ -52,10 +52,11 @@
         }
         .content5 {
           .flexer {
+
+            display: flex;
+            gap: 4rem;
+            flex-direction: column;
             section {
-              display: flex;
-              gap: 3rem;
-              flex-direction: column;
             }
           }
         }
