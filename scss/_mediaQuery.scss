@@ -14,34 +14,35 @@
         bottom: 10rem;
       }
 
-      article:nth-child(3){
+      article:nth-child(3) {
         position: relative;
         bottom: 6rem;
       }
     }
-    .section-3{
-        .container{
-            .content1{
-                .flexer{
-                    .buttons{
-                        display: flex;
-                        gap: 5px;
-                    }
-                }
+    .section-3 {
+      .container {
+        .content1 {
+          .flexer {
+            .buttons {
+              display: flex;
+              gap: 5px;
             }
-            .content2{
-                .flexer{
-                    .section{
-                        forms{
-                            .fields{
-                                display: flex;
-                                flex-direction: column;
-                            }
-                        }
-                    }
-                }
-            }
+          }
         }
+        .content3 {
+          .flexer {
+            section {
+              form{
+                .fields {
+                  display: flex;
+                  gap: 2rem;
+                  flex-direction: column;
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
