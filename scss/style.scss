@@ -245,12 +245,13 @@ body {
       .content5 {
         .flexer {
           display: flex;
+          flex-direction: column;
           gap: 3rem;
           section {
-            padding: 2rem;
-            box-sizing: border-box;
-            height: 400px;
-            width: 50%;
+            // padding: 2rem;
+            // box-sizing: border-box;
+            // height: 400px;
+            // width: 50%;
             form {
               position: relative;
               top: 1rem;

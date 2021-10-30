@@ -120,7 +120,10 @@ input ~ .tab {
             flex-direction: column;
   }
   .container-1 .section-3 .container .content5 .flexer section {
-    gap: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 3rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -450,15 +453,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 3rem;
-}
-
-.container-1 .section-3 .container .content5 .flexer section {
-  padding: 2rem;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  height: 400px;
-  width: 50%;
 }
 
 .container-1 .section-3 .container .content5 .flexer section form {

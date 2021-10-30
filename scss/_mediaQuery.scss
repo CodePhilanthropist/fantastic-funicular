@@ -51,13 +51,14 @@
           }
         }
         .content5 {
-            .flexer {
-              section {
-                gap: 2rem;
-                flex-direction: column;
-              }
+          .flexer {
+            section {
+              display: flex;
+              gap: 3rem;
+              flex-direction: column;
             }
           }
+        }
       }
     }
   }
