@@ -96,6 +96,12 @@ input ~ .tab {
     position: relative;
     bottom: 6rem;
   }
+  .container-1 .section-3 .container .content1 .flexer .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 5px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

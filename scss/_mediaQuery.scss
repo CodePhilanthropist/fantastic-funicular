@@ -19,6 +19,18 @@
         bottom: 6rem;
       }
     }
+    .section-3{
+        .container{
+            .content1{
+                .flexer{
+                    .buttons{
+                        display: flex;
+                        gap: 5px;
+                    }
+                }
+            }
+        }
+    }
   }
 }
 
