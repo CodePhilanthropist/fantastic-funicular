@@ -67,172 +67,178 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .container-1 {
-        .section-2 {
-          position: relative;
-          padding: 2rem;
-          flex-direction: column;
-    
-          article:nth-child(1) {
-            position: relative;
-            bottom: 13rem;
-          }
-          article:nth-child(2) {
-            position: relative;
-            bottom: 10rem;
-          }
-    
-          article:nth-child(3) {
-            position: relative;
-            bottom: 6rem;
+  .container-1 {
+    .section-2 {
+      position: relative;
+      padding: 2rem;
+      flex-direction: column;
+
+      article:nth-child(1) {
+        position: relative;
+        bottom: 13rem;
+      }
+      article:nth-child(2) {
+        position: relative;
+        bottom: 10rem;
+      }
+
+      article:nth-child(3) {
+        position: relative;
+        bottom: 6rem;
+      }
+    }
+    .section-3 {
+      .container {
+        .content1 {
+          .flexer {
+            .buttons {
+              display: flex;
+              gap: 5px;
+            }
           }
         }
-        .section-3 {
-          .container {
-            .content1 {
-              .flexer {
-                .buttons {
+        .content3 {
+          .flexer {
+            section {
+              form {
+                .fields {
                   display: flex;
-                  gap: 5px;
-                }
-              }
-            }
-            .content3 {
-              .flexer {
-                section {
-                  form {
-                    .fields {
-                      display: flex;
-                      gap: 2rem;
-                      flex-direction: column;
-                    }
-                  }
-                }
-              }
-            }
-            .content4 {
-              .flexer {
-                section {
                   gap: 2rem;
                   flex-direction: column;
                 }
               }
             }
-            .content5 {
-              .flexer {
-                display: flex;
-                gap: 4rem;
-                flex-direction: column;
-                section {
-                }
-              }
+          }
+        }
+        .content4 {
+          .flexer {
+            section {
+              gap: 2rem;
+              flex-direction: column;
+            }
+          }
+        }
+        .content5 {
+          .flexer {
+            display: flex;
+            gap: 4rem;
+            flex-direction: column;
+            section {
             }
           }
         }
       }
+    }
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .container-1 {
-        .section-2 {
-    
-          article:nth-child(1) {
-            position: relative;
-            bottom: 13rem;
-          }
-          article:nth-child(2) {
-            position: relative;
-            bottom: 10rem;
-          }
-    
-          article:nth-child(3) {
-            position: relative;
-            bottom: 6rem;
+  .container-1 {
+    .section-2 {
+      article:nth-child(1) {
+        position: relative;
+        bottom: 13rem;
+      }
+      article:nth-child(2) {
+        position: relative;
+        bottom: 10rem;
+      }
+
+      article:nth-child(3) {
+        position: relative;
+        bottom: 6rem;
+      }
+    }
+    .section-3 {
+      .container {
+        .content1 {
+          .flexer {
+            .buttons {
+              display: flex;
+              gap: 5px;
+            }
           }
         }
-        .section-3 {
-          .container {
-            .content1 {
-              .flexer {
-                .buttons {
+        .content3 {
+          .flexer {
+            section {
+              form {
+                .fields {
                   display: flex;
-                  gap: 5px;
-                }
-              }
-            }
-            .content3 {
-              .flexer {
-                section {
-                  form {
-                    .fields {
-                      display: flex;
-                      gap: 2rem;
-                      flex-direction: column;
-                    }
-                  }
-                }
-              }
-            }
-            .content4 {
-              .flexer {
-                section {
                   gap: 2rem;
                   flex-direction: column;
                 }
               }
             }
-            .content5 {
-              .flexer {
-                display: flex;
-                gap: 4rem;
-                flex-direction: column;
-                section {
+          }
+        }
+        .content4 {
+          .flexer {
+            section {
+              gap: 2rem;
+              flex-direction: column;
+            }
+          }
+        }
+        .content5 {
+          .flexer {
+            display: flex;
+            gap: 4rem;
+            flex-direction: column;
+            section {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container-1 {
+    .section-2 {
+      flex-direction: row;
+      article:nth-child(2) {
+        position: inherit;
+        bottom: 0;
+      }
+      article:nth-child(3) {
+        position: inherit;
+        bottom: 0;
+      }
+    }
+    .section-3 {
+      .container {
+        .content3 {
+          .flexer {
+            section {
+              form {
+                .fields {
+                  flex-direction: row;
                 }
               }
             }
           }
         }
+        .content4 {
+          .flexer {
+            section {
+              flex-direction: row;
+            }
+          }
+        }
+        .content5 {
+          .flexer {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            section {
+            }
+          }
+        }
       }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .container-1{
-        .section-2{
-            flex-direction: row;
-            article:nth-child(2){
-                position: inherit;
-                bottom: 0;
-            }
-            article:nth-child(3){
-                position: inherit;
-                bottom: 0;
-            }
-        }
-        .section-3{
-            .container{
-                .content3{
-                    .flexer{
-                        section{
-                            form{
-                                .fields{
-                                    flex-direction: row;
-                                }
-                            }
-                        }
-                    }
-                }
-                .content4{
-                    .flexer{
-                        section{
-                            flex-direction: row;
-                        }
-                    }
-                }
-            }
-        }
     }
+  }
 }
-
- 

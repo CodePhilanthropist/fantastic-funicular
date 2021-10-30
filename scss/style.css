@@ -269,6 +269,16 @@ input ~ .tab {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .container-1 .section-3 .container .content5 .flexer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 3rem;
+  }
 }
 
 * {
